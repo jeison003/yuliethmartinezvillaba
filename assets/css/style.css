@@ -23,6 +23,17 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+@media(min-width: 1200px) {
+  .text-about{
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .text-about{
+    font-size: 1.4rem !important;
+  }
+}
+
 #main {
   margin-top: 50px;
 }
