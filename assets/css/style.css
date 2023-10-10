@@ -34,9 +34,7 @@ h6 {
   }
 }
 
-.progress span{
-  font-weight: bold !important;
-}
+
 
 #main {
   margin-top: 50px;
@@ -627,6 +625,9 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.progress span{
+  font-weight: bold !important;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -957,6 +958,15 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+ .card-title{
+  font-weight: bold !important;
+  color:  #34b7a7;;
+}
+.card .authors{
+  color: #888888;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
