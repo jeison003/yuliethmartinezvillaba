@@ -34,6 +34,10 @@ h6 {
   }
 }
 
+.progress span{
+  font-weight: bold !important;
+}
+
 #main {
   margin-top: 50px;
 }
@@ -654,6 +658,12 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #34b7a7;
+}
+.skills .progress-bar-lenguague {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ffcc7a;
 }
 
 /*--------------------------------------------------------------
