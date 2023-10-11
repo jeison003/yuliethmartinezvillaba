@@ -776,6 +776,13 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume .resume-item a {
+  text-decoration: underline;
+}
+.separation{
+  border: 2px solid #1d685f;
+
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 400;
@@ -793,7 +800,7 @@ section {
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #1d685f;
@@ -962,17 +969,38 @@ section {
   fill: #11dbcf;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
+/*-------------------------------------------------------------
+#Publications
 --------------------------------------------------------------*/
-
- .card-title{
+.card-title{
   font-weight: bold !important;
   color:  #34b7a7;;
 }
 .card .authors{
   color: #888888;
 }
+#publications .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #34b7a7;
+}
+
+#publications .btn-about:hover {
+  background: #3dc8b7;
+}
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
