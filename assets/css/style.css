@@ -415,6 +415,19 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.orcid {
+  display: block;
+  text-indent: -9999px;
+  width: 23px;
+  height: 23px;
+  background: url(/assets/icons/icons8-orcid.svg);
+  background-size: contain;
+}
+
+.orcid:hover, .orcid:focus {
+  background: url(/assets/icons/icons8-orcid-onhover.svg);
+}
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -844,6 +857,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .icon-box h4{
+  color: #222222;
+  transition: ease-in-out 0.3s;
+  font-size: 4px;
+}
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -976,7 +994,7 @@ section {
   font-weight: bold !important;
   color:  #34b7a7;;
 }
-.card .authors{
+ .authors{
   color: #888888;
 }
 #publications .btn-about {
