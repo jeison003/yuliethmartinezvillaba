@@ -648,6 +648,12 @@ section {
 .progress span{
   font-weight: bold !important;
 }
+
+@media (max-width: 420px) {
+  .progress span{
+    font-size: 9px;
+  }
+}
 .skills .progress {
   height: 60px;
   display: block;
