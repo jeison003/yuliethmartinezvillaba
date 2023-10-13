@@ -455,6 +455,23 @@ h6 {
   color: #222222;
 }
 
+@media (max-width: 767px) {
+
+  #hero h1 {
+    font-size: 35px !important;
+  }
+  #hero h3{
+    font-size: 20px
+  }
+}
+
+@media (min-width: 768px) {
+
+  #hero h1 {
+    font-size: 60px !important;
+  }
+}
+
 #hero h2 {
   color: #6f6f6f;
   margin: 10px 0 0 0;
