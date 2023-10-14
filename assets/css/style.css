@@ -3,6 +3,11 @@ body {
   color: #444444;
 }
 
+html body main{  
+  height:100%; 
+}
+
+
 a {
   color: #34b7a7;
   text-decoration: none;
@@ -1395,6 +1400,7 @@ section {
   text-align: center;
 }
 
+
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -1403,3 +1409,4 @@ section {
 #footer .credits a {
   color: #34b7a7;
 }
+
